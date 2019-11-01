@@ -3,8 +3,6 @@ import './styles/styles.scss';
 import 'normalize.css/normalize.css';
 import AppRouter from './routers/AppRouter';
 import { Provider} from 'react-redux' 
-import {addExpense} from './actions/expenses'
-import getVisibleExpenses from './selectors/expenses'
 import configureStore from './store/configureStore'
 
 
